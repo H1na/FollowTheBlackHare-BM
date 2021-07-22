@@ -81,11 +81,11 @@ monogatari.assets ('scenes', {
 
 // Define the Characters
 monogatari.characters ({
-	'chernii': {
+	'Chernii': {
 		name: 'Аш',
 		color: 'ff00f0',
 		// default_expression: 'normal',
-		directory: 'chernii',
+		directory: 'Chernii',
 		sprites: {
 			normal: 'black_normal.png',
 			angry: 'black_angry.png',
@@ -111,17 +111,17 @@ monogatari.characters ({
 			fight: 'max_fight.png',
 		}
 	},
-	'vechna': {
+	'Vechna': {
 		name: 'Вечна',
 		color: '3abf0a',
-		directory: 'vechna',
+		directory: 'Vechna',
 		// default_expression: 'normal',
 		sprites: {
-			normal: 'vechna_smile2.png',
-			smile: 'vechna_smile.png',
-			thinking: 'vechna_thinking.png',
-			angry: 'vechna_angry.png',
-			whitenoise: 'vechna_whitenoise.png',
+			normal: 'Vechna_smile2.png',
+			smile: 'Vechna_smile.png',
+			thinking: 'Vechna_thinking.png',
+			angry: 'Vechna_angry.png',
+			whitenoise: 'Vechna_whitenoise.png',
 		},
 	},
 	'Stations II': {
@@ -151,63 +151,46 @@ monogatari.characters ({
 monogatari.script ({
 	// The game starts here.
 	'Start': [
-		'show scene #f7f6f6 with fadeIn',
-		'show notification Welcome',
-		{
-			'Input': {
-				'Text': 'What is your name?',
-				'Validation': function (input) {
-					return input.trim ().length > 0;
-				},
-				'Save': function (input) {
-					this.storage ({
-						player: {
-							name: input
-						}
-					});
-					return true;
-				},
-				'Revert': function () {
-					this.storage ({
-						player: {
-							name: ''
-						}
-					});
-				},
-				'Warning': 'You must enter a name!'
-			}
-		},
-		'y Hi {{player.name}} Welcome to Monogatari!',
-		{
-			'Choice': {
-				'Dialog': 'y Have you already read some documentation?',
-				'Yes': {
-					'Text': 'Yes',
-					'Do': 'jump Yes'
-				},
-				'No': {
-					'Text': 'No',
-					'Do': 'jump No'
-				}
-			}
-		}
-	],
+			'show scene home with fadeIn',
+			'',
+			'show character Chernii normal at right with fadeIn',
+			'',
+			'Chernii И последний ингредиент - как ты любишь, светлячки!',
+			'',
+			'Аш поставил на стол тарелку с салатом и повернул голову в сторону сестры, лежащей на полу.',
+			'Он задавался вопросом, спит она или нет',
+			'Chernii Конечно, Вечна, ты в сети. Спишь на кровати, работаешь на полу.',
+			'',
+			'Всмотрелся в лицо девушки, но вместо него увидел белый шум.',
+			'show character Vechna whitenoise at right',
+			'Vechna ...',
+			'show character Chernii annoyed at left',
+			'Chernii Чертова Луна! Сухая лаборатория, в которой ты или обрабатываешь данные в сети...',
+			'Chernii ...или убиваешь время, чтоб не сойти с ума.',
+			'show character Chernii normal at left',
+			'По старой привычке он подошел к кровати сестры, чтобы поправить.',
+			'Вот только она была нетронута...',
+			'show character Chernii annoyed at left',
+			'Chernii Ты опять 20 час работаешь?!',
+			'Chernii Что бы ты не делала в сети - это важнее, чем я, впрочем, как и всегда.',
+			'Chernii Чувствую себя в какой-то антиутопии.',
+			'show character Chernii normal at left',
+			'Chernii Живем в одной комнате, но не можем даже поговорить.',
+			'Chernii А потом ждать, когда ты, обратишь на меня внимание.',
+			'Chernii Если бы аризонский эксперимент Биосфера 2, с живущими в изолированных куполах людьми, был в наше время...',
+			'Chernii ...разделившись на 2 группы, испытуемые бы точно забанили друг друга.',
+			'Chernii Дальний космос подводят не технологии, а наша психика.',
+			'Chernii Но я на тебя не злюсь, уже не злюсь.',
+			'Chernii Это отчаяние, от того что ты от меня стала дальше, чем любая планета за пределами Луны. Правда же?',
+			'Он снова посмотрел на сестру.',
+			'show character Vechna whitenoise at right',
+			'Vechna ...',
+			'Chernii Но чем черт не шутит?',
+			'Он лег на свою кровать и зашел в сеть.',
+			'Text "Пользователь Вечна Хом не доступен"',
+			'jump Scene1'
+		],
+	'Scene1': [
 
-	'Yes': [
-		'y Thats awesome!',
-		'y Then you are ready to go ahead and create an amazing Game!',
-		'y I can’t wait to see what story you’ll tell!',
-		'end'
-	],
-
-	'No': [
-
-		'y You can do it now.',
-
-		'show message Help',
-
-		'y Go ahead and create an amazing Game!',
-		'y I can’t wait to see what story you’ll tell!',
-		'end'
 	]
-});
+})
