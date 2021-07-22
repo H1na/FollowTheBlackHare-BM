@@ -541,7 +541,7 @@ monogatari.script ({
 			'jump Scene10'
 		],
 		'Scene10': [
-		'show scene audience with fadeIn',
+		    'show scene audience with fadeIn',
 			'show character Chernii normal at right with fadeIn',
 			'Войдя в аудиторию, он прислушался. В прошлый раз казалось, что здесь кто-то есть.',
 			'В темном углу аудитории раздался шорох.',
@@ -554,6 +554,22 @@ monogatari.script ({
 			'jump Scene11'
 		],
 		'Scene11': [
+			'show scene vr with fadeIn',
+			'show character Chernii normal at right with fadeIn',
+			'Вокруг было шумно. Сегодня Аш не стал убавлять этот звук. Гул, казалось бы, заглушал его волнение.',
+			'Аш постоял у входа, собираясь с мыслями.',
+			'Chernii Стоит ли играть с тем парнем?',
+			'Он посмеялся над собой.',
+			'Chernii Через пару недель, я возможно не поиграю ни с кем. Зачем мелочиться?',
+			'В прошлый раз он не запомнил ник проектировщика. Но, знал, где искать.',
+			'Chernii Заслуженное первое место в рейтинге.',
+			'Chernii Надеюсь, сегодня будет не лучшая твоя работа.',
+			'jump Scene12'
+		],
+		'Scene12': [
+
+
+
 
 
 
