@@ -10,6 +10,10 @@
  * tools to inspect the elements.
  * =============================================================================
 **/
+@font-face { 
+	font-family: Tipo Pepel; 
+	src: url('../assets/fonts/Tipo Pepel - BoxedRegular-Bold.otf'); 
+} 
 
 /**
  * ===========================
@@ -19,7 +23,7 @@
 
 /* General Style */
 body {
-
+	font-family: Tipo Pepel;
 }
 
 /* Simple Button styles*/
@@ -36,6 +40,9 @@ button:hover {
 [data-screen] {
 
 }
+
+
+
 
 /**
  * ===========================
