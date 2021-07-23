@@ -75,6 +75,7 @@ monogatari.assets ('scenes', {
 	'vr': 'vr.png',
 	'vr2': 'vr2.png',
 	'planet': 'planet.png',
+	'helpcentre': 'helpcentre.png'
 
 });
 
@@ -544,6 +545,7 @@ monogatari.script ({
 			'show character Chernii confused at right',
 			'Chernii И для чего я здесь? Чип и так в реальном времени присылает вам показатели.',
 			'Chernii Зря столько датчиков в тело помещали?',
+			'show character Chernii normal at right',
 			'Stations II Правила требуют перепроверки данных.',
 			'Stations Ваше состояние оценивается как опасное для окружающих, находящихся в замкнутой системе жизнеобеспечения.',
 			'Stations II Необходимо восстановить показатели до уровня, который считается здоровым.',
@@ -586,7 +588,7 @@ monogatari.script ({
 			'jump Scene9'
 		],
 		'Scene9': [
-			'show scene audience with fadeIn',
+			'show scene home with fadeIn',
 			//заменить на центр копирования,
 			'show character Chernii normal at right with fadeIn',
 			'hide character Chernii',
@@ -875,6 +877,7 @@ monogatari.script ({
 			'Вы должны посетить свидание.',
 			'show character Chernii normal at right',
 			'Chernii Чувствую, у моего эксперимента мало шансов. Но они есть, а у свиданий их еще меньше',
+			'show character Chernii sad at right',
 			'Он смотрел на сестру.',
 			'Пришло новое уведомление',
 			'Изученая новая эмоция – грусть',
@@ -888,7 +891,7 @@ monogatari.script ({
 		'Scene14': [ 
 			'show scene audience with fadeIn',
 			'show character Chernii normal at right with fadeIn',
-			'войдя в аудиторию, парня снова накрыло чувство, что кроме него здесь кто-то есть. Он пошел вдоль рядов.',
+			'Войдя в аудиторию, парня снова накрыло чувство, что кроме него здесь кто-то есть. Он пошел вдоль рядов.',
 			'Chernii Есть тут кто?',
 			'В первых рядах лежал парень, подключенный к сети. Он вальяжно развалился на скамье с довольной ухмылкой на лице.',
 			'Она отлично подходила его костюму и галстуку с аистом. Аш представил эту улыбочку на лице бодрствующего парня.',
