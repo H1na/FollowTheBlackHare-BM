@@ -151,9 +151,9 @@ monogatari.characters ({
 monogatari.script ({
 	// The game starts here.
 	'Start': [
-			'show scene home with fadeIn',
+			'show scene home with fadeIn', 
 			'',
-			'show character Chernii normal at right with fadeIn',
+			'show character Chernii normal at centre with fadeIn',
 			'',
 			'Chernii И последний ингредиент - как ты любишь, светлячки!',
 			'',
@@ -161,20 +161,22 @@ monogatari.script ({
 			'Он задавался вопросом, спит она или нет.',
 			'Chernii Конечно, Вечна, ты в сети. Спишь на кровати, работаешь на полу.',
 			'',
+			'hide character Chernii',
+			'show character Vechna whitenoise at centre',
 			'Всмотрелся в лицо девушки, но вместо него увидел белый шум.',
-			'show character Vechna whitenoise at left',
 			'Vechna ...',
-			'show character Chernii annoyed at right',
+			'hide character Vechna',
+			'show character Chernii annoyed at centre',
 			'Chernii Чертова Луна! Сухая лаборатория, в которой ты или обрабатываешь данные в сети...',
 			'Chernii ...или убиваешь время, чтоб не сойти с ума.',
-			'show character Chernii normal at right',
+			'show character Chernii normal at centre',
 			'По старой привычке он подошел к кровати сестры, чтобы поправить.',
 			'Вот только она была нетронута...',
-			'show character Chernii annoyed at right',
+			'show character Chernii annoyed at centre',
 			'Chernii Ты опять 20 час работаешь?!',
 			'Chernii Что бы ты не делала в сети - это важнее, чем я, впрочем, как и всегда.',
 			'Chernii Чувствую себя в какой-то антиутопии.',
-			'show character Chernii normal at right',
+			'show character Chernii normal at centre',
 			'Chernii Живем в одной комнате, но не можем даже поговорить.',
 			'Chernii Если бы аризонский эксперимент Биосфера 2, с живущими в изолированных куполах людьми, был в наше время...',
 			'Chernii ...разделившись на 2 группы, испытуемые бы точно забанили друг друга.',
@@ -182,8 +184,11 @@ monogatari.script ({
 			'Chernii Но я на тебя не злюсь, уже не злюсь.',
 			'Chernii Это отчаяние, от того что ты от меня стала дальше, чем любая планета за пределами Луны. Правда же?',
 			'Он снова посмотрел на сестру.',
-			'show character Vechna whitenoise at left',
+			'hide character Chernii',
+			'show character Vechna whitenoise at centre',
 			'Vechna ...',
+			'hide character Vechna',
+			'show character Chernii normal at centre',
 			'Chernii Но чем черт не шутит?',
 			'Он лег на свою кровать и зашел в сеть.',
 			'Text "Пользователь Вечна Хом не доступен."',
@@ -191,7 +196,7 @@ monogatari.script ({
 		],
 	'Scene1': [
 		'show scene home with fadeIn',
-		'Text 70 земных дней назад.',
+		'70 земных дней назад.',
 		'show character Vechna normal at left with fadeIn',
 		'show character Chernii normal at right with fadeIn',
 		'Vechna Классно, что в фудрариум ты поселил светлячков! Сверчки уже надоели.',
@@ -709,7 +714,7 @@ monogatari.script ({
 			'Text Изучена новая эмоция - отвращение.',
 			'jump Scene13'
 		],
-		'Scene14': [ 
+		'Scene13': [ 
 			'show scene home with fadeIn',
 			'Вернувшись домой, он лег на пол рядом с Вечной, обнял и заснул.',
 			'show character Vechna whitenoise at left with fadeIn',
@@ -732,9 +737,9 @@ monogatari.script ({
 			'Chernii Правила станции против меня. Но тот кто писал ее ИИ, скорее всего знал – будут и заложники ситуации',
 			'Chernii Правильный вывод сделали на Биосфера 2 - человек самое непредсказуемое звено в технологиях и законах.',
 			'Chernii Я бы следовал правилам, если бы не знал реальный источник проблемы. А это Вечна. И во встрече с ней – мне отказано.',
-			'jump Scene15'
+			'jump Scene14'
 		],
-		'Scene15': [ 
+		'Scene14': [ 
 			'show scene audience with fadeIn',
 			'show character Chernii normal at right with fadeIn',
 			'войдя в аудиторию, парня снова накрыло чувство, что кроме него здесь кто-то есть. Он пошел вдоль рядов.',
@@ -743,9 +748,9 @@ monogatari.script ({
 			'Она отлично подходила его костюму и галстуку с аистом. Аш представил эту улыбочку на лице бодрствующего парня.',
 			'Chernii Нашел что надеть. И кого-то мне смутно напоминаешь… А, все равно.',
 			'Он ушел в дальний угол и вышел в сеть.',
-			'jump Scene16'
+			'jump Scene15'
 		],
-		'Scene16': [
+		'Scene15': [
 			'show scene vr with fadeIn',
 			'show character Chernii normal at right with fadeIn',
 			'Chernii Если идти ва-банк. Мне снова нужен этот “М”.',
@@ -762,9 +767,9 @@ monogatari.script ({
 			'Chernii Быстро ты согласился. Подозрительно.',
 			'Перед Ашем снова высветилось приглашение на свидание.',
 			'Chernii А ладно, Только давай быстрее, у меня мало времени.!',
-			'jump Scene17'
+			'jump Scene16'
 		],
-		'Scene17': [
+		'Scene16': [
 		'show scene home with fadeIn',
 		'show character Chernii normal at right with fadeIn',
 		'Chernii Эээ... У тебя совсем нет чувства меры?',
@@ -948,9 +953,10 @@ monogatari.script ({
 		'Раздался звук сообщения.',
 		'Chernii Еще ведь целые сутки? Мне что, нужно было ее убить по правилам игры?',
 		'Ему никто не ответил. Высветилось сообщение: вы отключены от сети.',
-		'jump Scene18'
+		'jump Scene17'
 		],
-		'Scene18': [
+		'Scene17': [
+
 
 
 
