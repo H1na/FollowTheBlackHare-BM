@@ -32,19 +32,19 @@ loading-screen {
 }
 
 load-screen {
-	background-image: url("../assets/ui/menu-bg_text.png");
+	background-image: url("../assets/ui/menu-bg.png");
 	color: white;
 }
 save-screen {
-	background-image: url("../assets/ui/menu-bg_text.png");
+	background-image: url("../assets/ui/menu-bg.png");
 	color: white;
 }
 settings-screen {
-	background-image: url("../assets/ui/menu-bg_text.png");
+	background-image: url("../assets/ui/menu-bg.png");
 	color: white;
 }
 help-screen {
-	background-image: url("../assets/ui/menu-bg_text.png");
+	background-image: url("../assets/ui/menu-bg.png");
 	color: white;
 }
 

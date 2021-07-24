@@ -26,7 +26,7 @@ function createWindow () {
 	win = new BrowserWindow ({
 
 		// Title that will be shown in the window (Your game's title)
-		title: '',
+		title: 'Follow The Black Hare - Beyound The Moon',
 
 		// Set the minimal window size
 		minWidth: 640,
@@ -39,7 +39,7 @@ function createWindow () {
 
 		// If resize is disabled, the resolution chooser will show in
 		// the settings screen.
-		resizable: true,
+		// resizable: true,
 
 		// Other settings
 		enableLargerThanScreen: false,
@@ -47,6 +47,7 @@ function createWindow () {
 
 		// Full Screen options
 		fullscrenable: true,
+		// fullscreen: true,
 
 		// Set an icon for the window
 		icon: path.join(appRoot, '/assets/icons/icon_128x128.png'),

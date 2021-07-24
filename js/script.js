@@ -1,25 +1,25 @@
 /* global monogatari */
 
-// Define the messages used in the game.
-monogatari.action ('message').messages ({
-	'Help': {
-		title: 'Help',
-		subtitle: 'Some useful Links',
-		body: `
-			<p><a href='https://developers.monogatari.io/documentation/'>Documentation</a> - Everything you need to know.</p>
-			<p><a href='https://monogatari.io/demo/'>Demo</a> - A simple Demo.</p>
-		`
-	}
-});
+// // Define the messages used in the game.
+// monogatari.action ('message').messages ({
+// 	'Help': {
+// 		title: 'Help',
+// 		subtitle: 'Some useful Links',
+// 		body: `
+// 			<p><a href='https://developers.monogatari.io/documentation/'>Documentation</a> - Everything you need to know.</p>
+// 			<p><a href='https://monogatari.io/demo/'>Demo</a> - A simple Demo.</p>
+// 		`
+// 	}
+// });
 
-// Define the notifications used in the game
-monogatari.action ('notification').notifications ({
-	'Welcome': {
-		title: 'Welcome',
-		body: 'This is the Monogatari VN Engine',
-		icon: ''
-	}
-});
+// // Define the notifications used in the game
+// monogatari.action ('notification').notifications ({
+// 	'Welcome': {
+// 		title: 'Welcome',
+// 		body: 'This is the Monogatari VN Engine',
+// 		icon: ''
+// 	}
+// });
 
 // Define the Particles JS Configurations used in the game
 monogatari.action ('particles').particles ({
