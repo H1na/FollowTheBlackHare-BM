@@ -1057,7 +1057,7 @@ monogatari.script ({
 		'Он поставил перед сестрой чашку и пошел к двери. Та не открывалась.',
 		'Chernii Попробовать стоило.',
 		'hide character Chernii',
-		'show character Vechna smile2 at centre with fadeIn',
+		'show character Vechna normal at centre with fadeIn',
 		'Vechna Тогда поговорим!',
 		'hide character Vechna',
 		'show character Chernii normal at centre with fadeIn',
@@ -1559,6 +1559,7 @@ monogatari.script ({
 			'hide character Chernii',
 			'Они вошли в сеть',
 			'show scene planet with fadeIn',
+			'show character Chernii happy2 at centre with fadeIn',
 			'Chernii Настоящее свидание - это не то, как вы близко, это то, насколько вы стали ближе.'
 
 
