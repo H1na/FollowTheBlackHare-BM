@@ -3,12 +3,12 @@
   "productName": "Follow The Black Hare - Beyound The Moon",
   "version": "0.1.0",
   "main": "engine/electron/index.js",
-  "description": "A description of your game",
+  "description": "Что если, имея доступ к безграничным контактам, ты не можешь общаться с близким человеком, находящимся с тобой в одной комнате?",
   "author": "Stiame",
   "license": "MIT",
   "homepage": "http://stiame.tilda.ws/",
   "build": {
-    "appId": "com.example.mygame",
+    "appId": "me.stia.fbh_bm",
     "win": {
       "target": [
         "portable"
