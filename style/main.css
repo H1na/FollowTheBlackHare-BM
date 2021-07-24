@@ -52,12 +52,12 @@ button:hover {
 
 /* Main Menu Styling */
 [data-screen="main"] {
-
+	background-image: url("../assets/menu/menu-bg_text.png");
 }
 
 /* Main Menu Buttons Styling */
 [data-screen="main"] button {
-
+	background-color: transparent;
 }
 
 /**
