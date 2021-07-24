@@ -1290,13 +1290,14 @@ monogatari.script ({
 		'show character Chernii veryangry at centre',
 		'Аш злился, что она испортила еду.',
 		'Chernii Не подходи ко мне, или я сделаю тебе больно. Сиди и молчи.',
-		'show character Chernii normal at centre',
+		'',
 		'Через несколько часов Аш лежал на кровати и спал. Рядом с кухонной стойкой лежала девушка. Тихо и мирно.',
 		'Раздался звук сообщения.',
 		'Chernii Еще ведь целые сутки? Мне что, нужно было ее убить по правилам игры?',
 		'Ему никто не ответил.',
 		'Chernii * Мысли * Убить бы и проектировщика...',
 		'Высветилось сообщение: вы отключены от сети.',
+		'show character Chernii fear at centre with fadeIn',
 		'jump Scene17'
 		],
 		'Scene17': [
@@ -1465,7 +1466,7 @@ monogatari.script ({
 			'show character Chernii anngry2 at centre with fadeIn',
 			'Chernii Смешно. И удали мои данные!',
 			'hide character Chernii',
-			'show character Max fight at centre with fadeIn',
+			'show character Max normal at centre with fadeIn',
 			'Максим в ответ улыбнулся, но Аш уже скрылся за поворотом.',
 			'jump Scene19'
 		],
