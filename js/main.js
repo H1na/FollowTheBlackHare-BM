@@ -35,4 +35,20 @@ $_ready (() => {
 		// 3. Inside the init function:
 
 	});
+
+	var link = document.getElementById('quit_span');
+	console.log("asdjaslkjdlaks")
+	console.log(link);
+    // onClick's logic below:
+	setTimeout(function() {
+		console.log("Steeing adfasd")
+		link.addEventListener('click', function() {
+			console.log('clicked')
+			const remote = require('electron').remote
+			let w = remote.getCurrentWindow()
+			w.close()
+		});
+	}, 10000)
+    
 });
+
