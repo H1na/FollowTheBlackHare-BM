@@ -57,7 +57,7 @@ button:hover {
 
 /* Main Menu Buttons Styling */
 [data-screen="main"] button {
-	/* background-color: transparent; */
+	background-color: transparent;
 }
 
 /**
