@@ -105,11 +105,15 @@ button:hover {
 /* Text Box styling */
 [data-component="text-box"] {
 	bottom: 0;
-	background-color: transparent;
-	background-size: 100% 100%; 
-	background-image: url("../assets/ui/speach_line.png");
+	background-color: black;
+	/* background-size: 100% 100%;  */
+	/* background-image: url("../assets/ui/speach_line.png"); */
 	max-height: 15%;
 	min-height: 15%;
+	border-width: 0.2rem;
+	border-bottom-color: white;
+	border-radius: 1.5rem;
+	border-style: solid
 }
 
 /* Character Name Style */
