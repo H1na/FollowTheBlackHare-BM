@@ -126,9 +126,10 @@ monogatari.characters ({
 			whitenoise: 'vechna_whitenoise.png',
 		},
 	},
-	'Stations II': {
+	'Station AI': {
 		name: 'ИИ станции',
-		color: 'red'
+		color: '#ff0000',
+		directory: 'Station AI',
 	},
 	'Text': {
 		name: 'Текст:',
