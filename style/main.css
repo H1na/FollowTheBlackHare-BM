@@ -52,7 +52,7 @@ button:hover {
 
 /* Main Menu Styling */
 [data-screen="main"] {
-	background-image: url("../assets/menu/menu-bg_text.png");
+	background-image: url("../assets/ui/menu-bg_text.png");
 }
 
 /* Main Menu Buttons Styling */
@@ -104,7 +104,12 @@ button:hover {
 
 /* Text Box styling */
 [data-component="text-box"] {
-
+	bottom: 0;
+	background-color: transparent;
+	background-size: 100% 100%; 
+	background-image: url("../assets/ui/speach_line.png");
+	max-height: 15%;
+	min-height: 15%;
 }
 
 /* Character Name Style */
@@ -137,7 +142,8 @@ button:hover {
 
 /* Quick Menu Style */
 [data-component="quick-menu"] {
-
+	background-color: transparent;
+	right: 0.5rem;
 }
 
 /* Quick Menu Buttons Style */
