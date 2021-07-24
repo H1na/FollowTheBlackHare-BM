@@ -126,10 +126,12 @@ monogatari.characters ({
 			whitenoise: 'vechna_whitenoise.png',
 		},
 	},
-	'Station AI': {
+	'Station_AI': {
 		name: 'ИИ станции',
 		color: '#ff0000',
 		directory: 'Station AI',
+		sprites: {
+			normal: 'Station_AI.png',
 	},
 	'Text': {
 		name: 'Текст:',
@@ -140,10 +142,10 @@ monogatari.characters ({
 		color: '#ffffff'	
 	},
 	'M': {
-		name: 'М',
+		name: 'M.Stork',
 		color: '#5a9de9',
 		// default_expression: 'noise',
-		directory: 'Maks',
+		directory: 'Max',
 		sprites: {
 			noise: 'max_noise.png',
 		},
