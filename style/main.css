@@ -26,6 +26,28 @@ body {
 	font-family: Tipo Pepel;
 }
 
+loading-screen {
+	background-image: url("../assets/ui/menu-bg_text.png");
+	color: white;
+}
+
+load-screen {
+	background-image: url("../assets/ui/menu-bg_text.png");
+	color: white;
+}
+save-screen {
+	background-image: url("../assets/ui/menu-bg_text.png");
+	color: white;
+}
+settings-screen {
+	background-image: url("../assets/ui/menu-bg_text.png");
+	color: white;
+}
+help-screen {
+	background-image: url("../assets/ui/menu-bg_text.png");
+	color: white;
+}
+
 /* Simple Button styles*/
 button {
 
