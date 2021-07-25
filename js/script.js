@@ -933,6 +933,7 @@ monogatari.script ({
 			'show character Chernii disgust at centre with fadeIn',
 			'Он отвернулся, к горлу подступала тошнота.',
 			'Chernii Похоже, пить газировку я бросил.',
+			'show character Chernii normal at centre with fadeIn',
 			'Вечна подошла к кроватям и поднялась наверх. Он хотел подойти.',
 			'hide character Chernii',
 			'show character Vechna whitenoise at centre with fadeIn',
@@ -1547,7 +1548,7 @@ monogatari.script ({
 			'По лицу девушки было видно, что она понимала вопрос. Но старалась не подавать виду.',
 			'hide character Chernii',
 			'show character Vechna normal at centre with fadeIn',
-			'Vechna Я думала, ты доделал свои заячьи ушки... И вот...Ты же сам сказал, нужно 3 месяца... А не как мне – года...',
+			'Vechna Я думала, ты доделал свои заячьи ушки... И вот... Ты же сам сказал, нужно 3 месяца... А не как мне – года...',
 			'hide character Vechna',
 			'show character Chernii veryangry at centre with fadeIn',
 			'По его телу разлился огонь.',
@@ -1618,6 +1619,7 @@ monogatari.script ({
 			'show character Vechna smile at centre with fadeIn',
 			'Chernii Это то, насколько вы стали ближе.',
 			'hide character Vechna',
+			'Конец.',
 			'stop music scene_19 with volume 30 loop' 
 
 
