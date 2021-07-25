@@ -163,7 +163,7 @@ monogatari.characters ({
 monogatari.script ({
 	// The game starts here.
 	'Start': [
-			'play music Newman-V4 with loop', 
+			'play music Newman-classic with volume 50 loop', 
 			'show scene home with fadeIn',
 			'',
 			'show character Chernii normal at centre with fadeIn',
@@ -361,11 +361,11 @@ monogatari.script ({
 			'hide character Vechna',
 			'show character Chernii annoyed at centre with fadeIn',
 			'Chernii Не смогу не тебя смотреть после сложной игры. Мне ведь нужно море, целый океан крови и страданий.',
-			'stop music Newman-V4 with loop',
+			'stop music Newman-classic with volume 50 loop',
 			'jump Scene3'
 		],
 		'Scene3': [
-			'play music Newman-classic with loop',
+			'play music Newman-classic with volume 50 loop',
 			'show scene audience with fadeIn',
 			'',
 			'show character Chernii normal at centre with fadeIn',
@@ -400,11 +400,11 @@ monogatari.script ({
 			'Подтверждение пришло сразу.',
 			'Chernii Надеюсь, ты дашь мне море негативных впечатлений. Что-то пооригинальней зомби.',
 			'Молодой человек с кибер-ушами вошел в дверь.',
-			'stop music Newman-classic with loop',
+			'stop music Newman-classic with volume 50 loop',
 			'jump Scene5'
 		],
 		'Scene5': [
-			'play music Newman_epic with loop',
+			'play music Newman-stars with volume 50 loop',
 			'show scene vr2 with fadeIn',
 			'',
 			'show character Chernii normal at centre with fadeIn',
@@ -516,11 +516,11 @@ monogatari.script ({
 			'Аш вышел из игры.',
 			'show character M noise at centre with fadeIn',
 			'M Постоянно они обижаются…',
-			'stop music Newman_epic with loop',
+			'stop music Newman-stars with volume 50 loop',
 			'jump Scene6'
 		],
 		'Scene6': [
-			'play music Newman-NN with loop',
+			'play music Newman-NN with volume 50 loop',
 			//?
 			'show scene vr with fadeIn',
 			'show character Chernii normal at centre with fadeIn',
@@ -642,11 +642,11 @@ monogatari.script ({
 			'show character Chernii normal at centre with fadeIn',
 			'Chernii * Мысли * Значит, Вечна меня не увидит...',
 			'Chernii Что тут сказать, я согласен...',
-			'stop music Newman-NN with loop',
+			'stop music Newman-NN with volume 50 loop',
 			'jump Scene9'
 		],
 		'Scene9': [
-			'play music Newman-classic with loop',
+			'play music Newman-classic with volume 50 loop',
 			'show scene home with fadeIn',
 			'show character Chernii normal at centre with fadeIn',
 			'hide character Chernii',
@@ -710,11 +710,11 @@ monogatari.script ({
 			'show character Chernii normal at centre',
 			'Chernii Заслуженное первое место в рейтинге.',
 			'Chernii Надеюсь, сегодня будет не лучшая твоя работа.',
-			'stop music Newman-classic with loop',
+			'stop music Newman-classic with volume 50 loop',
 			'jump Scene12'
 		],
 		'Scene12': [
-			'play music Newman-stars with loop',
+			'play music Newman-stars with volume 50 loop',
 			'show scene vr2 with fadeIn',
 			'',
 			'show character Chernii normal at centre with fadeIn',
@@ -903,11 +903,11 @@ monogatari.script ({
 			'Вместо воды у Аша было 4 сочных зайца.',
 			'Перед ним высветилось уведомление.',
 			'Text Изучена новая эмоция - отвращение.',
-			'stop music Newman-stars with loop',
+			'stop music Newman-stars with volume 50 loop',
 			'jump Scene13'
 		],
 		'Scene13': [ 
-			'play music Newman-classic with loop',
+			'play music Newman-classic with volume 50 loop',
 			'show scene home with fadeIn',
 			'Вернувшись домой, он лег на пол рядом с Вечной, обнял и заснул.',
 			'Стараясь не вспоминать прошедший день.',
@@ -988,11 +988,11 @@ monogatari.script ({
 			'Перед Ашем снова высветилось приглашение на свидание.',
 			'show character Chernii normal at centre',
 			'Chernii А ладно, Только давай быстрее, у меня мало времени.!',
-			'stop music Newman-classic with loop',
+			'stop music Newman-classic with volume 50 loop',
 			'jump Scene16'
 		],
 		'Scene16': [
-		'play music Newman-stars with loop',
+		'play music Newman-stars with volume 50 loop',
 		'show scene home with fadeIn',
 		'',
 		'show character Chernii normal at centre with fadeIn',
@@ -1323,11 +1323,11 @@ monogatari.script ({
 		'Chernii * Мысли * Убить бы и проектировщика...',
 		'Высветилось сообщение: вы отключены от сети.',
 		'show character Chernii fear at centre with fadeIn',
-		'stop music Newman-stars with loop',
+		'stop music Newman-stars with volume 50 loop',
 		'jump Scene17'
 		],
 		'Scene17': [
-			'play music Newman-classic with loop', 
+			'play music Newman-classic with volume 50 loop', 
 			'show scene audience with fadeIn',
 			'Голова раскалывалась, он не решался подняться со скамьи и пойти домой. Кошмар еще не отпустил.',
 			'show character Chernii fear at centre with fadeIn',
@@ -1522,9 +1522,9 @@ monogatari.script ({
 			'Он сел на пол и облокотился на ее кровать.',
 			'Chernii Я даже не могу узнать время до полуночи...',
 			'Chernii Все-таки, я привык к сети.',
-			'stop music Newman-classic with loop', 
+			'stop music Newman-classic with volume 50 loop', 
 			'',
-			'play music scene_19 with loop', 
+			'play music scene_19 with volume 50 loop', 
 			'Он закрыл глаза. В жилых блоках, расположенных в лавовых туннелях под поверхность Луны,', 
 			'ты быстро дезориентировался во времени, если нет часов.',
 			'Он не знал, сколько проспал. Его разбудило прикосновение руки.',
@@ -1610,7 +1610,7 @@ monogatari.script ({
 			'hide character Chernii',
 			'show character Vechna smile at centre with fadeIn',
 			'Chernii Это то, насколько вы стали ближе.',
-			'stop music scene_19 with loop' 
+			'stop music scene_19 with volume 50 loop' 
 
 
 
