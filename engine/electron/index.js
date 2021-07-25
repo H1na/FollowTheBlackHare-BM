@@ -47,7 +47,7 @@ function createWindow () {
 
 		// Full Screen options
 		fullscrenable: true,
-		// fullscreen: true,
+		fullscreen: true,
 
 		// Set an icon for the window
 		icon: path.join(appRoot, '/assets/icons/icon_128x128.png'),
