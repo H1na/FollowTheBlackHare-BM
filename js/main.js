@@ -33,22 +33,33 @@ $_ready (() => {
 
 	monogatari.init ('#monogatari').then (() => {
 		// 3. Inside the init function:
+		var link = document.getElementById('quit');
+		// monogatari.registerListener("exit", link)
+		link.style.visibility = "visible";
 
+		monogatari.registerListener ('quit', {
+			callback: (event) => {
+				console.log("Exiting")
+				const remote = require('electron').remote
+				let w = remote.getCurrentWindow()
+				w.close()
+			}
+		});
+		
 	});
 
-	var link = document.getElementById('quit_span');
-	console.log("asdjaslkjdlaks")
-	console.log(link);
-    // onClick's logic below:
-	setTimeout(function() {
-		console.log("Steeing adfasd")
-		link.addEventListener('click', function() {
-			console.log('clicked')
-			const remote = require('electron').remote
-			let w = remote.getCurrentWindow()
-			w.close()
-		});
-	}, 10000)
+	// var link = document.getElementById('quit_span');
+	// console.log("Element found")
+	// console.log(link);
+    // // onClick's logic below:
+
+	// 	link.addEventListener('click', function() {
+	// 		console.log('clicked')
+	// 		const remote = require('electron').remote
+	// 		let w = remote.getCurrentWindow()
+	// 		w.close()
+	// 	});
+	
     
 });
 
