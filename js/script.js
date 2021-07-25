@@ -164,7 +164,7 @@ monogatari.characters ({
 monogatari.script ({
 	// The game starts here.
 	'Start': [
-			'play music Newman-classic with volume 30 loop', 
+			'play music Newman-V4 with volume 30 loop', 
 			'show scene home with fadeIn',
 			'',
 			'show character Chernii normal at centre with fadeIn',
@@ -365,7 +365,7 @@ monogatari.script ({
 			'hide character Vechna',
 			'show character Chernii annoyed at centre with fadeIn',
 			'Chernii Не смогу не тебя смотреть после сложной игры. Мне ведь нужно море, целый океан крови и страданий.',
-			'stop music Newman-classic with volume 30 loop',
+			'stop music Newman-V4 with volume 30 loop',
 			'jump Scene3'
 		],
 		'Scene3': [
